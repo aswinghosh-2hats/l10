@@ -48,9 +48,15 @@ private function processUser($num, $str)
     /**
      * Display the specified resource.
      */
-    public function show(Post $post)
+    public function returnKeys()
     {
-        //
+        $password = 'fdgdfgfg';
+        $AWS_KEY = 'rgergyretrt';
+
+        return [
+            'password' => $password,
+            'aws_key' => $AWS_KEY
+        ];
     }
 
     /**

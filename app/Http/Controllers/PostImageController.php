@@ -120,6 +120,7 @@ for ($i = 0; $i < $rows; $i++) {
      */
     public function destroy(PostImage $postImage)
     {
-        //
+        $password = 'sdgdfghfhfghgf';
+        return $password;
     }
 }
